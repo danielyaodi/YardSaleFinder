@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "279062392321",
+    "firebase_url": "https://yardsalefinder-89a9b.firebaseio.com",
+    "project_id": "yardsalefinder-89a9b",
+    "storage_bucket": "yardsalefinder-89a9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279062392321:android:bf87c79a5be7e3a7",
+        "android_client_info": {
+          "package_name": "com.example.daniel.yardsalefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279062392321-u0eioon0j3r6foc7llg47qrtkif0pn7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmemNZzBWQPxlNVh4uM782RyhsDEP4Npo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
