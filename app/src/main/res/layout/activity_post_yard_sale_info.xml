@@ -7,19 +7,18 @@
     tools:context="com.example.daniel.yardsalefinder.postYardSaleInfoActivity">
 
 
-
-
-
     <EditText
         android:id="@+id/addr1EditText"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
         android:ems="10"
         android:hint="Address Line 1:"
         android:inputType="textPostalAddress"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.014" />
 
@@ -27,12 +26,14 @@
         android:id="@+id/addr2EditText"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
         android:ems="10"
         android:hint="Address Line 2 :"
         android:inputType="textPostalAddress"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.106" />
 
@@ -40,12 +41,14 @@
         android:id="@+id/cityEditText"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
         android:ems="10"
         android:hint="City/Town :"
         android:inputType="textPostalAddress"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.198" />
 
@@ -53,90 +56,135 @@
         android:id="@+id/statePicker"
         android:layout_width="280dp"
         android:layout_height="38dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287" />
+        app:layout_constraintVertical_bias="0.287"
+        android:spinnerMode="dialog"
+
+        android:entries="@array/statesPicker"/>
+
 
     <EditText
         android:id="@+id/zipCodeEditText"
         android:layout_width="280dp"
         android:layout_height="41dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
         android:ems="10"
         android:hint="Zip Code :"
         android:inputType="number"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37" />
 
-    <Spinner
-        android:id="@+id/timeStartSpinner"
-        android:layout_width="130dp"
-        android:layout_height="32dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:entries="@array/timeStart"
-        app:layout_constraintVertical_bias="0.597" />
-    <com.wx.wheelview.widget.WheelView
-        android:layout_width="wrap_content"
-        android:layout_height="32dp"></com.wx.wheelview.widget.WheelView>
-
-
-
-
-
-    <Spinner
-        android:id="@+id/timeEndSpinner"
-        android:layout_width="129dp"
-        android:layout_height="32dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.203"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:entries="@array/timeEnd"
-        app:layout_constraintVertical_bias="0.743" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Time Start:"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        android:id="@+id/timeStart"
+        android:layout_width="143dp"
+        android:layout_height="32dp"
+        android:text="DateBegin:"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.526" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Time End:"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
+        android:id="@+id/timeEnd"
+        android:layout_width="137dp"
+        android:layout_height="29dp"
+        android:text="Date End:"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663" />
+        app:layout_constraintVertical_bias="0.744" />
 
     <Button
         android:id="@+id/postYardSaleButton"
-        android:layout_width="321dp"
+        android:layout_width="155dp"
         android:layout_height="48dp"
-        android:text="Post this yard sale info"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="Submit"
+
+        app:layout_constraintRight_toLeftOf="@+id/cancelPostButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/cancelPostButton"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintLeft_toRightOf="@+id/postYardSaleButton"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp" />
+
+
+    <Spinner
+        android:id="@+id/timeStartSpinner"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="52dp"
+        android:entries="@array/timeStart"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintVertical_bias="0.965" />
+        app:layout_constraintVertical_bias="0.602"
+        android:layout_marginEnd="52dp" />
+
+    <Spinner
+        android:id="@+id/timeEndSpinner"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="52dp"
+        android:entries="@array/timeStart"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823"
+        android:layout_marginEnd="52dp" />
+
+    <TextView
+        android:id="@+id/dateBeginTextView"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/dateEndTextView"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.068" />
+
 
 </android.support.constraint.ConstraintLayout>

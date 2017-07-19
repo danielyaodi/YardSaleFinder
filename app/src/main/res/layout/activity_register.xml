@@ -10,20 +10,20 @@
 
     <EditText
         android:id="@+id/emailEditText"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Email:"
         android:inputType="textEmailAddress"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.033" />
 
     <EditText
         android:id="@+id/passwordEditText"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Password:"
@@ -36,7 +36,7 @@
 
     <Button
         android:id="@+id/registerButton"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="48dp"
         android:text="Register"
         app:layout_constraintRight_toRightOf="parent"
@@ -50,16 +50,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already registered? Back to Login!"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.921"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.502" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
 
     <EditText
         android:id="@+id/telEditText"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Telephone:"
@@ -72,7 +73,7 @@
 
     <EditText
         android:id="@+id/retypePassEditText"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Re-type Password"
@@ -85,7 +86,7 @@
 
     <EditText
         android:id="@+id/userEditText"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="User Name:"
