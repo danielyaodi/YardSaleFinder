@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Yard Sale Finder</string>
     <string name="title_activity_show_map">Map</string>
-    <drawable name="bkcolor">#e0e0e0</drawable>
     <string-array name="timeStart">
         <item>8 AM  </item>
         <item>9 AM  </item>
@@ -14,18 +13,7 @@
         <item>4 PM  </item>
         <item>5 PM  </item>
     </string-array>
-    <!--<string-array name="timeEnd">-->
-    <!--<item>8 AM</item>-->
-    <!--<item>9 AM</item>-->
-    <!--<item>10 AM</item>-->
-    <!--<item>11 AM</item>-->
-    <!--<item>12 PM</item>-->
-    <!--<item>1 PM</item>-->
-    <!--<item>2 PM</item>-->
-    <!--<item>3 PM</item>-->
-    <!--<item>4 PM</item>-->
-    <!--<item>5 PM</item>-->
-    <!--</string-array>-->
+
     <string-array name="statesPicker">
         <item>Alabama</item>
         <item>Alaska</item>

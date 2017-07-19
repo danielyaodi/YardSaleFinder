@@ -1,4 +1,4 @@
-package com.example.daniel.yardsalefinder;
+package com.cpp.daniel.yardsalefinder;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

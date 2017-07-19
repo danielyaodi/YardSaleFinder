@@ -36,6 +36,50 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279062392321:android:7ab86d43c55f2ecf",
+        "android_client_info": {
+          "package_name": "com.cpp.daniel.yardsalefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279062392321-96r9rm65iena8dne74mm59g01e4ca5lb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cpp.daniel.yardsalefinder",
+            "certificate_hash": "3e000c75303bb6c48e390f0d90989f2a0eaf387e"
+          }
+        },
+        {
+          "client_id": "279062392321-u0eioon0j3r6foc7llg47qrtkif0pn7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmemNZzBWQPxlNVh4uM782RyhsDEP4Npo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279062392321-u0eioon0j3r6foc7llg47qrtkif0pn7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"

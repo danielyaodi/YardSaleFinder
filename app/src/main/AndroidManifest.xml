@@ -16,17 +16,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.cpp.daniel.yardsalefinder.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProfileActivity" />
+        <activity android:name="com.cpp.daniel.yardsalefinder.RegisterActivity" />
+        <activity android:name="com.cpp.daniel.yardsalefinder.ProfileActivity" />
         <activity
-            android:name=".postYardSaleInfoActivity"
+            android:name="com.cpp.daniel.yardsalefinder.postYardSaleInfoActivity"
             android:windowSoftInputMode="adjustPan" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -51,9 +51,9 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".showMapActivity"
+            android:name="com.cpp.daniel.yardsalefinder.showMapActivity"
             android:label="@string/title_activity_show_map" />
-        <activity android:name=".ListAddressActivity"></activity>
+        <activity android:name="com.cpp.daniel.yardsalefinder.ListAddressActivity"></activity>
     </application>
 
 </manifest>
